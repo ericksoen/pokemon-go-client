@@ -19,8 +19,8 @@ type Config struct {
 	Debug      bool
 }
 
-// New creates a new instance of the HTTP using the provided configuration
-func New(config Config) Client {
+// NewClient creates a new instance of the HTTP using the provided configuration
+func NewClient(config Config) Client {
 	r := resty.New()
 
 	baseURL := config.BaseURL

@@ -1,4 +1,4 @@
-package main
+package pokeclient
 
 // PokemonName models the response object from the API
 type PokemonName struct {
