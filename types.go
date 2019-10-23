@@ -2,8 +2,8 @@ package pokeclient
 
 // PokemonName models the response object from the API
 type PokemonName struct {
-	Id   int    `json:"id"`
-	Name string `json:"name`
+	ID   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 // PokemonNames resolves the dynamic property structure returned from the API, e.g.,
